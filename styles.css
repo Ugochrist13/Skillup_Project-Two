@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: o;
+    background-image: url('dangote 2.webp') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(244, 246, 248, 0.829);
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+    color: blue;
+}
+
+#header ul li {
+    margin: 20px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+#mainBody {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 400px;
+    padding: 00px;
+    margin: auto;
+    margin-top:150px;
+}
+
+#left {
+    width: 450px;
+    color: white;
+    padding-left: 50px;
+}
+
+#left h1{
+    width: 350px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#content {
+    width: 320px;
+    text-align: justify;
+}
+
+#right {
+    width: 500px;
+    border-left: solid;
+    border-left-color: white;
+    height: 150px;
+    padding-right: 500px;
+}
+
+#right h5{
+    text-align: center;
+    width: 300px;
+    padding-right: 20px;
+    color: white;
+}
+
+#buttons {
+    padding-left: 25px;
+    display: -ms-inline-grid;
+    text-align: center;
+    width: 350px;
+}
+
+#buttons button {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30%;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+
+    transition-duration: 0.4s;
+}
+
+a {
+    color: white;
+}
+
+#buttons button:hover {
+    background-color: #e5e4f0;
+    color: white;
+  }
