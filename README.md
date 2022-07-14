@@ -1,2 +1,1 @@
-# Skillup_Project-Two
-Second Website with Skillup Africa
+This is my Second Website with Skillup Africa
